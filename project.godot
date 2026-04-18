@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Automotive Tycoon Simulator"
+run/main_scene="uid://qvl88u7fbghn"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+EventBus="*uid://crrfv5xmgtsfx"
+GameManager="*uid://copaqu7j8pkyl"
+SaveManager="*uid://catbo6esa77fk"
+SystemBootstrapper="*uid://7pfl6bu0sgxd"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
