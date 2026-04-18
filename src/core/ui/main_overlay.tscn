@@ -17,10 +17,14 @@ theme_override_constants/margin_bottom = 16
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=1626788546]
 layout_mode = 2
 
+[node name="CapitalLabel" type="Label" parent="MarginContainer/HBoxContainer" unique_id=1311851150]
+layout_mode = 2
+size_flags_horizontal = 3
+
 [node name="DateLabel" type="Label" parent="MarginContainer/HBoxContainer" unique_id=1441184074]
 layout_mode = 2
 
-[node name="CapitalLabel" type="Label" parent="MarginContainer/HBoxContainer" unique_id=1311851150]
+[node name="Spacer" type="Control" parent="MarginContainer/HBoxContainer" unique_id=576799450]
 layout_mode = 2
 size_flags_horizontal = 3
 
