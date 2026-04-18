@@ -1,12 +1,9 @@
 [gd_scene format=3 uid="uid://qvl88u7fbghn"]
 
 [ext_resource type="Script" uid="uid://chtoqc6x232s2" path="res://src/core/ui/main_overlay.gd" id="1_3xxqt"]
-[ext_resource type="PackedScene" uid="uid://bby5wwxfw22ld" path="res://src/modules/garage/garage_view.tscn" id="2_bb4v2"]
 
 [node name="MainOverlay" type="CanvasLayer" unique_id=2020722386]
 script = ExtResource("1_3xxqt")
-
-[node name="GarageView" parent="." unique_id=209033386 instance=ExtResource("2_bb4v2")]
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=550098450]
 anchors_preset = 10

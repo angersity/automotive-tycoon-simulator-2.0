@@ -1,10 +1,12 @@
 extends Node
+class_name GlobalEventBus
 
-# Сигнали життєвого циклу гри та UI
+# --- СИГНАЛИ СИСТЕМИ ЧАСУ ---
 signal date_updated(new_date: String)
+
+# --- СИГНАЛИ ЕКОНОМІКИ ---
 signal capital_updated(new_capital: int)
+
+# --- СИГНАЛИ ЗБЕРЕЖЕННЯ/ЗАВАНТАЖЕННЯ ---
 signal game_saved()
 signal game_loaded()
-
-# Сигнали економічних транзакцій
-signal request_capital_change(amount: int)
